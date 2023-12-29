@@ -11,7 +11,7 @@ I will assume familiarity with Brian Anderson's paper ["Reverse-Time Diffusion E
 to diffusion models by Yang Song. (Though this post necessarily contradicts Song's article, Song's great animations and explanations make his article a worthwhile read.)
 
 Song says "Importantly, any SDE has a corresponding reverse SDE"
-and provides the equation $(10)\; dx = [f(x,t) - g^2(t) \nabla_x \log p_t(x)]dt + g(t) dw$. The meaning is that the above process, simulated in reverse time, will have the same distribution of paths as the forward time SDE $dx = f(x, t)dt + g(t) dw$. I will call this equation "Anderson's reverse SDE".
+and provides the equation $(10)\; dx = [f(x,t) - g^2(t) \nabla_x \log p_t(x)]dt + g(t) dw$. I will call this equation "Anderson's reverse SDE". The meaning is that the above process, simulated in reverse time, will have the same distribution of paths as the forward time SDE $dx = f(x, t)dt + g(t) dw$. 
 
 Song neglects the technical condition from Anderson's paper, which is that the Fokker-Planck equation associated to the SDE $dx = f(x, t)dt + g(t) dw$ must have a *unique* solution. Usually practictioners can freely disregard such technical conditions, because they are usually satisfied by the non-pathological objects encountered in practice. Not so here. This precondition was [criticized elsewhere](https://projecteuclid.org/journals/annals-of-probability/volume-14/issue-4/Time-Reversal-of-Diffusions/10.1214/aop/1176992362.full) by Haussman and Pardoux as being "rather unverifiable." (Interestingly, these authors provide their own reverse diffusion formulation which I haven't had the time to work through yet.) 
 
