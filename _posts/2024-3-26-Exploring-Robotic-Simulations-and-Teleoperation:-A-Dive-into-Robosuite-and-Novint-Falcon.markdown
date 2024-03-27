@@ -1,3 +1,4 @@
+This is an internship report for work done starting January 2024 at Axby Technologies.
 ## Introduction
 
 The eventual goal for Axby Technologies is to use machine learning to train robots to perform ordinary tasks that a human could do, such as cooking a burger. Machine-learned behaviors offer versatility, robustness, and the ability to generalize to different environments that pre-recorded trajectories do not. Because of this, it is important that we are able to test the machine-learned policies in simulated environments.
