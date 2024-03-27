@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Exploring Robotic Simulations and Teloperation: A Dive into Robosuite and Novint Falcon"
+author: "Peter Liu"
+date:   2023-12-28 17:25:38 -0500
+categories: ml-project
+---
+
 This is an internship report for work done starting January 2024 at Axby Technologies.
 ## Introduction
 
