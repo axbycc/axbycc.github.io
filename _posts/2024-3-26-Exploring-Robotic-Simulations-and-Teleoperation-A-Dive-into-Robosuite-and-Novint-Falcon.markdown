@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Exploring Robotic Simulations and Teloperation: A Dive into Robosuite and Novint Falcon"
+author: "Peter Liu"
+date:   2023-12-28 17:25:38 -0500
+categories: ml-project
+---
+
 ## Introduction
 
 The eventual goal for Axby Technologies is to use machine learning to train robots to perform ordinary tasks that a human could do, such as cooking a burger. Machine-learned behaviors offer versatility, robustness, and the ability to generalize to different environments that pre-recorded trajectories do not. Because of this, it is important that we are able to test the machine-learned policies in simulated environments.
